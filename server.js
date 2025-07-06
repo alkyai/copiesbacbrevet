@@ -55,8 +55,8 @@ app.post('/create-checkout-session-formation', async (req, res) => {
         quantity: 1,
       }],
       mode: 'payment',
-      success_url: 'https://bacresultat.github.io/ia/cancel.html',
-      cancel_url: 'https://bacresultat.github.io/ia/cancel.html',
+      success_url: 'https://alkyai.github.io/copiesbacbrevet/cancel.html',
+      cancel_url: 'https://alkyai.github.io/copiesbacbrevet/cancel.html',
     });
 
     res.json({ id: session.id });
